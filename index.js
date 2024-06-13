@@ -1,8 +1,8 @@
 // Array to store correct answers
 const correctAnswers = [
     "b", "b", "c", // Section 1: Grammar
-    "a", "b", "c", // Section 2: Vocabulary
-    "b", "b", "c", // Section 3: Reading Comprehension
+    "c", "c", "c", // Section 2: Vocabulary
+    "b", "b", "b", // Section 3: Reading Comprehension
     // No correct answers needed for Section 4 (Writing)
 ];
 
