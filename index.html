@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Proficiency Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- You can link your CSS file here -->
+</head>
+<body>
+    <h1>English Proficiency Quiz</h1>
+
+    <form id="quizForm">
+        <!-- Section 1: Grammar -->
+        <h2>Section 1: Grammar</h2>
+        <p>1. Fill in the blank with the correct form of the verb:</p>
+        <p>She _____ (go) to school every day.</p>
+        <input type="radio" name="q1" value="a"> a) go<br>
+        <input type="radio" name="q1" value="b"> b) goes<br>
+        <input type="radio" name="q1" value="c"> c) going<br>
+
+        <p>2. Choose the correct sentence:</p>
+        <input type="radio" name="q2" value="a"> a) She have a dog.<br>
+        <input type="radio" name="q2" value="b"> b) She has a dog.<br>
+        <input type="radio" name="q2" value="c"> c) She has a dogs.<br>
+
+        <p>3. Which sentence is correct?</p>
+        <input type="radio" name="q3" value="a"> a) I no have any money.<br>
+        <input type="radio" name="q3" value="b"> b) I haven't any money.<br>
+        <input type="radio" name="q3" value="c"> c) I don't have any money.<br>
+
+        <!-- Section 2: Vocabulary -->
+        <h2>Section 2: Vocabulary</h2>
+        <p>4. What is the synonym of "happy"?</p>
+        <input type="radio" name="q4" value="a"> a) Sad<br>
+        <input type="radio" name="q4" value="b"> b) Angry<br>
+        <input type="radio" name="q4" value="c"> c) Joyful<br>
+
+        <p>5. What is the opposite of "big"?</p>
+        <input type="radio" name="q5" value="a"> a) Large<br>
+        <input type="radio" name="q5" value="b"> b) Huge<br>
+        <input type="radio" name="q5" value="c"> c) Small<br>
+
+        <p>6. Which word means "to eat lunch"?</p>
+        <input type="radio" name="q6" value="a"> a) Breakfast<br>
+        <input type="radio" name="q6" value="b"> b) Dinner<br>
+        <input type="radio" name="q6" value="c"> c) Lunch<br>
+
+        <!-- Section 3: Reading Comprehension -->
+        <h2>Section 3: Reading Comprehension</h2>
+        <p>Read the following passage and answer the questions:</p>
+
+        <p><strong>Tom loves to travel. Last summer, he went on a trip to Europe. He visited many countries such as France, Italy, and Spain. In France, he tried delicious croissants. In Italy, he saw famous landmarks like the Colosseum. In Spain, he enjoyed flamenco dancing.</strong></p>
+
+        <p>7. Where did Tom go last summer?</p>
+        <input type="radio" name="q7" value="a"> a) Asia<br>
+        <input type="radio" name="q7" value="b"> b) Europe<br>
+        <input type="radio" name="q7" value="c"> c) Africa<br>
+
+        <p>8. What did Tom try in France?</p>
+        <input type="radio" name="q8" value="a"> a) Pizza<br>
+        <input type="radio" name="q8" value="b"> b) Croissants<br>
+        <input type="radio" name="q8" value="c"> c) Sushi<br>
+
+        <p>9. What did Tom see in Italy?</p>
+        <input type="radio" name="q9" value="a"> a) Eiffel Tower<br>
+        <input type="radio" name="q9" value="b"> b) Colosseum<br>
+        <input type="radio" name="q9" value="c"> c) Big Ben<br>
+
+        <!-- Section 4: Writing -->
+        <h2>Section 4: Writing</h2>
+        <p>10. Write a short paragraph (4-5 sentences) about your favorite hobby or activity. Include why you enjoy it and how often you do it.</p>
+        <textarea id="writingTask" rows="5" cols="50"></textarea><br>
+
+        <button type="button" onclick="calculateScore()">Submit Answers</button>
+    </form>
+
+    <script src="script.js"></script>
+    <!-- Link to your JavaScript file -->
+</body>
+</html>
